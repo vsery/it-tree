@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)http://exploring-data.com/vis/programming-languages-influence-network-d3/ -->
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Programming Languages Influence Network D3 | Exploring Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An network graph showing the connections of programming languages based on their influences created with the JavaScript library D3.">
+    <meta property="og:image" content="./img/preview/programming-languages-influence-network-d3.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@yaph">
+    <meta name="twitter:site" content="@yaph">
+    <meta name="twitter:title" content="Programming Languages Influence Network D3">
+    <meta name="twitter:description" content="An network graph showing the connections of programming languages based on their influences created with the JavaScript library D3.">
+    <meta name="twitter:image:src" content="./img/preview/programming-languages-influence-network-d3.jpg">
+    <meta name="author" content="Ramiro Gómez">
+    <meta name="flattr:id" content="4pzdyq">
+    <link rel="canonical" href="./vis/programming-languages-influence-network-d3/">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/d3graph.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="Exploring Data main RSS feed" href="./rss.xml">
+</head>
+
+<body class="">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="site-name" class="navbar-brand" href="./">Exploring Data</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <div id="sharemenu" class="nav pull-right">
+                    <div class="btn-group">
+                        <a href="./vis/programming-languages-influence-network-d3/#" class="btn navbar-btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+</a>
+                        <ul class="share dropdown-menu pull-right">
+                            <li><a href="./rss.xml">RSS Feed</a></li>
+                            <li><a href="https://twitter.com/share?url=http%3A//exploring-data.com/vis/programming-languages-influence-network-d3/&amp;text=Programming%20Languages%20Influence%20Network%20D3">Tweet this</a></li>
+                            <li><a href="https://flattr.com/submit/auto?user_id=rg&amp;url=http%3A//exploring-data.com/vis/programming-languages-influence-network-d3/&amp;title=Programming%20Languages%20Influence%20Network%20D3&amp;language=en_GB&amp;category=software">Flattr this</a></li>
+                            <li><a href="http://www.facebook.com/sharer.php?u=http%3A//exploring-data.com/vis/programming-languages-influence-network-d3/&amp;t=Programming%20Languages%20Influence%20Network%20D3">Facebook</a></li>
+                            <li><a href="https://plus.google.com/share?url=http%3A//exploring-data.com/vis/programming-languages-influence-network-d3/">Google+</a></li>
+                            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A//exploring-data.com/vis/programming-languages-influence-network-d3/&amp;title=Programming%20Languages%20Influence%20Network%20D3">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" id="vis">
+            </div>
+        </div>
+    </div>
+    <div id="info" class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>Programming Languages Influence Network D3</h1>
+                <p>A network graph showing the connections of programming languages based on their influences. Please see the <a href="./vis/programming-languages-influence-network/">interactive programming language network</a> for more information.</p>
+                <p>The graph is created with data from the <a href="http://www.freebase.com/view/computer/programming_language">Freebase Programming Language collection</a> and is rendered with the <a href="http://d3js.org/">JavaScript library D3</a> using a Force Atlas layout.</p>
+                <div class="postinfo">
+                    <hr class="clearfix">
+                    <div class="well">
+                        <p>Published on September 04, 2012 (updated on May 21, 2015) by <a href="http://ramiro.org/">Ramiro Gómez</a> (<a href="https://twitter.com/yaph">@yaph</a>).
+                            <br> Tags: <a href="./tags/network-graph/">network graph</a>, <a href="./tags/programming-languages/">programming languages</a>, <a href="./tags/d3/">d3</a>, <a href="./tags/interactive/">interactive</a>.
+                            <br> To be informed of new posts, subscribe to the <a href="./rss.xml">RSS feed</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>Keep Exploring</h3>
+                <a href="./rss.xml" class="btn btn-lg btn-warning">Subscribe to News feed</a>
+                <h3>Recent Visualizations</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./vis/spaghetti-western-actors-dbpedia/">Spaghetti Western Actors Network Graph DBpedia</a></li>
+                    <li><a href="./vis/programming-languages-influence-network-2014/">Programming Languages Influence Network 2014</a></li>
+                    <li><a href="./vis/ballon-dor-male-players-votes-2013/">Ballon d'Or 2013 Male Players Votes Network</a></li>
+                    <li><a href="./vis/npm-top-packages-dependencies/">npm Top Packages Dependencies Graph</a></li>
+                    <li><a href="./vis/npm-packages-dependencies/">npm Packages Dependencies Graph</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    <hr>
+                    <p>Exploring Data is a showcase of interactive data visualizations created with open data and open source tools, <a href="./about/">learn more</a>.
+                        <br> ©
+                        <script>
+                        document.write(new Date().getFullYear())
+                        </script>2018 <a href="http://ramiro.org/">Ramiro Gómez</a>.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', './js/analytics.js', 'ga');
+    ga('create', 'UA-5102014-13', 'exploring-data.com');
+    ga('send', 'pageview');
+
+    (function(c, a) {
+        function d() { var e = a.getElementsByTagName("a"); var f = []; for (var g = 0; g < e.length; ++g) { var h = e[g]; if (h.host != c.location.host) { f.push(h) } } return f }
+
+        function b(f) { var e = f.srcElement || f.target; while (e && (typeof e.tagName == "undefined" || e.tagName.toLowerCase() != "a" || !e.href)) { e = e.parentNode } if (!e || !e.href) { return } if (c.ga) { ga("send", "event", "Outbound link", "Click", e.href) } if (!e.target || e.target.match(/^_(self|parent|top)$/i)) { setTimeout(function() { a.location.href = e.href }, 150); if (f.preventDefault) { f.preventDefault() } else { f.returnValue = false } } } c.addEventListener("load", function() { var e = d(); for (var f in e) { e[f].addEventListener("click", b) } })
+    }(window, document));
+    </script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/d3.v3.min.js"></script>
+    <script src="./js/d3graph.js"></script>
+</body>
+
+</html>
